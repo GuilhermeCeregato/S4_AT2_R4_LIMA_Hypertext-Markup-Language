@@ -1,0 +1,146 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0b;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #151515;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    color: #168cff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav a:hover {
+    color: #168cff;
+}
+
+/* Banner inicial */
+.banner {
+    background-color: #101b2b;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h2 {
+    color: #168cff;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    margin-bottom: 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #168cff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.botao:hover {
+    background-color: #0066cc;
+}
+
+/* Produtos */
+#produtos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#produtos h2,
+#sobre h2 {
+    color: #168cff;
+    margin-bottom: 25px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #1a1a1a;
+    padding: 15px;
+    border-radius: 5px;
+    width: 250px;
+}
+
+.produto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.produto h3 {
+    margin-top: 10px;
+}
+
+.produto p {
+    margin-top: 5px;
+}
+
+.produto strong {
+    color: #168cff;
+}
+
+/* Sobre a loja */
+#sobre {
+    background-color: #151515;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+#sobre h3 {
+    color: #168cff;
+    margin-top: 15px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #080808;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Ajuste para celulares */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav a {
+        margin: 5px;
+    }
+}
