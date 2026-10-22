@@ -1,0 +1,89 @@
+
+/* Estilo geral da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: white;
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #222222;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2, h3 {
+    color: #39ff14;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Espaçamento entre as seções */
+section {
+    margin-bottom: 25px;
+}
+
+/* Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Links */
+a {
+    color: #39ff14;
+}
+
+/* Tabela de comparação */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Legenda da tabela */
+caption {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Células e cabeçalhos */
+th, td {
+    border: 1px solid #666666;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Cabeçalho da tabela */
+thead {
+    background-color: #292929;
+    color: #39ff14;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222222;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Ajustes para telas pequenas */
+@media (max-width: 600px) {
+    main {
+        padding: 12px;
+    }
+
+    th, td {
+        padding: 6px;
+        font-size: 14px;
+    }
+}
