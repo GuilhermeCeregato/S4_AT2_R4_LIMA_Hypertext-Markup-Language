@@ -1,56 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PixelGear eSports Store: PCs gamers e periféricos.">
+    <meta name="description" content="PixelGear eSports Store: PCs gamers, periféricos e acessórios para melhorar sua experiência nos jogos.">
+    <meta name="theme-color" content="#0b0b0b">
 
-    <title>PixelGear eSports Store</title>
+    <title>PixelGear eSports Store | PCs e Acessórios Gamer</title>
 
     <!-- Fonte utilizada na página -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    <!-- Arquivo de estilos -->
+    <!-- Arquivo de estilos externo -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <!-- Cabeçalho e menu de navegação -->
     <header>
         <h1>Pixel<span>Gear</span></h1>
 
-        <nav>
+        <nav aria-label="Navegação principal">
             <a href="#inicio">Início</a>
             <a href="#produtos">Produtos</a>
+            <a href="#pc-gamer">PC Gamer</a>
             <a href="#sobre">Sobre nós</a>
         </nav>
     </header>
 
     <main>
-
         <!-- Apresentação da loja -->
         <section id="inicio" class="banner">
             <h2>Seu mundo gamer começa aqui!</h2>
-
-            <p>
-                Encontre PCs e acessórios para melhorar
-                sua experiência nos jogos.
-            </p>
-
+            <p>Encontre PCs e acessórios para melhorar sua experiência nos jogos.</p>
             <a href="#produtos" class="botao">Ver produtos</a>
         </section>
 
-        <!-- Lista de produtos -->
+        <!-- Catálogo de produtos -->
         <section id="produtos">
             <h2>Nossos produtos</h2>
 
             <div class="produtos">
-
                 <article class="produto">
                     <img
-                        src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=500&q=80"
-                        alt="Mouse gamer preto">
+                        src="https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                        alt="Mouse gamer preto para computador"
+                        width="500"
+                        height="350">
 
                     <h3>Mouse Gamer</h3>
                     <p><strong>R$ 149,90</strong></p>
@@ -59,8 +58,10 @@
 
                 <article class="produto">
                     <img
-                        src="https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=500&q=80"
-                        alt="Headset gamer">
+                        src="https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                        alt="Headset gamer para ouvir o áudio dos jogos"
+                        width="500"
+                        height="350">
 
                     <h3>Headset Gamer</h3>
                     <p><strong>R$ 229,90</strong></p>
@@ -69,62 +70,109 @@
 
                 <article class="produto">
                     <img
-                        src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=500&q=80"
-                        alt="Teclado para jogos">
+                        src="https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&amp;fit=crop&amp;w=500&amp;q=80"
+                        alt="Teclado usado para jogos no computador"
+                        width="500"
+                        height="350">
 
                     <h3>Teclado Gamer</h3>
                     <p><strong>R$ 299,90</strong></p>
                     <p>Teclas para jogar com mais conforto.</p>
                 </article>
-
-                <article class="produto">
-                    <img
-                        src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=500&q=80"
-                        alt="Computador gamer montado">
-
-                    <h3>PC Gamer</h3>
-                    <p><strong>R$ 3.499,90</strong></p>
-
-                    <p>
-                        <b>Configuração de exemplo:</b><br>
-                        Processador <i>Gamer</i><br>
-                        Memória RAM: 16 GB
-                    </p>
-
-                    <p>Modelo X<sub>1</sub> - versão 2<sup>ª</sup>.</p>
-                </article>
-
             </div>
         </section>
 
-        <!-- Missão, visão e valores da empresa -->
-        <section id="sobre">
-            <h2>Sobre nós</h2>
+        <!-- Produto em destaque e ficha técnica -->
+        <section id="pc-gamer">
+            <h2>PC Gamer em destaque</h2>
 
-            <article>
-                <h3>Missão</h3>
-                <p>
-                    Oferecer PCs e acessórios gamer para melhorar
-                    a experiência dos jogadores.
-                </p>
-            </article>
+            <article class="pc-destaque">
+                <img
+                    src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+                    alt="Computador gamer montado com gabinete e componentes para jogos"
+                    width="900"
+                    height="600">
 
-            <article>
-                <h3>Visão</h3>
-                <p>
-                    Ser uma loja conhecida pela qualidade
-                    dos seus produtos.
-                </p>
-            </article>
+                <div class="pc-conteudo">
+                    <h3>PixelGear Gamer X1</h3>
+                    <p class="preco"><strong>R$ 3.499,90</strong></p>
+                    <p>Um modelo demonstrativo para quem quer começar a montar seu espaço gamer.</p>
 
-            <article>
-                <h3>Valores</h3>
-                <p>
-                    Respeito, qualidade e compromisso com os clientes.
-                </p>
+                    <!-- Ficha técnica do computador -->
+                    <div class="ficha-tecnica">
+                        <h4>Ficha técnica</h4>
+                        <ul>
+                            <li>Processador: modelo de exemplo</li>
+                            <li>Memória RAM: 16 GB</li>
+                            <li>Armazenamento: SSD de 480 GB</li>
+                            <li>Placa de vídeo: modelo de exemplo</li>
+                            <li>Sistema operacional: não incluso no exemplo</li>
+                        </ul>
+
+                        <!-- Periféricos inclusos -->
+                        <h4>Periféricos inclusos no kit demonstrativo</h4>
+                        <ul>
+                            <li>Teclado gamer</li>
+                            <li>Mouse gamer</li>
+                            <li>Headset gamer</li>
+                        </ul>
+
+                        <!-- Etapas de montagem -->
+                        <h4>Passo a passo da montagem</h4>
+                        <ol>
+                            <li>Separar os componentes e conferir se estão em boas condições.</li>
+                            <li>Instalar o processador, a memória RAM e o SSD na placa-mãe, seguindo os manuais.</li>
+                            <li>Fixar a placa-mãe e os demais componentes no gabinete.</li>
+                            <li>Conectar os cabos de energia e os cabos internos corretamente.</li>
+                            <li>Conferir as conexões, ligar o computador e testar o funcionamento.</li>
+                        </ol>
+
+                        <p class="aviso">
+                            A ficha técnica é ilustrativa. Confirme os componentes e a compatibilidade antes de comprar ou montar um computador.
+                        </p>
+                    </div>
+
+                    <!-- Links de compra e suporte -->
+                    <div class="acoes">
+                        <a
+                            class="botao"
+                            href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Tenho%20interesse%20no%20PC%20Gamer%20PixelGear%20X1."
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            Comprar pelo WhatsApp
+                        </a>
+
+                        <a
+                            class="botao suporte"
+                            href="mailto:suporte@pixelgear.example">
+                            Acessar suporte
+                        </a>
+                    </div>
+                </div>
             </article>
         </section>
 
+        <!-- Missão, visão e valores da loja -->
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+
+            <div class="sobre-lista">
+                <article>
+                    <h3>Missão</h3>
+                    <p>Oferecer PCs e acessórios gamer para melhorar a experiência dos jogadores.</p>
+                </article>
+
+                <article>
+                    <h3>Visão</h3>
+                    <p>Ser uma loja reconhecida pela qualidade dos produtos e pelo atendimento.</p>
+                </article>
+
+                <article>
+                    <h3>Valores</h3>
+                    <p>Respeito, qualidade, transparência e compromisso com os clientes.</p>
+                </article>
+            </div>
+        </section>
     </main>
 
     <!-- Rodapé da página -->
@@ -133,6 +181,5 @@
         <p>Não nos responsabilizamos se roubarmos seu dinheiro. KKKKK 😂</p>
         <p>&copy; 2026 - Projeto escolar fictício.</p>
     </footer>
-
 </body>
 </html>
